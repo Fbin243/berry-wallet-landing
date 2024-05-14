@@ -32,7 +32,10 @@ function App() {
       <div className="h-[60px] bg-primary-200 flex items-center px-10">
         <img className="me-4" src={strawberry} alt="React Logo" />
         <h1 className="text-primary-500">Berry Wallet</h1>
-        <h1 className="text-primary-400 ms-auto hover:text-secondary-500 cursor-pointer">
+        <h1
+          className="text-primary-400 ms-auto hover:text-secondary-500 cursor-pointer"
+          onClick={() => handleDownload(downloadUrl, downloadFileName)}
+        >
           Download
         </h1>
       </div>
