@@ -1,10 +1,9 @@
 import strawberry from "./assets/strawberry.svg";
 import signIn from "./assets/imgs/BerryWallet Sign In.png";
 
-const downloadUrl =
-  "https://d3jy31tj1gt845.cloudfront.net/reactdigitalgarden/json/menu.json";
+const downloadUrl = "https://berry-wallet-landing.vercel.app/berry-wallet.zip";
 
-const downloadFileName = "menu.json";
+const downloadFileName = "berry-wallet.zip";
 
 function App() {
   const handleDownload = (url: string, fileName: string) => {
